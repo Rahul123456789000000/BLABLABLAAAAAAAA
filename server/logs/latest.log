@@ -1,0 +1,734 @@
+[20:49:33] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:49:33] [Server thread/INFO]: Loading properties
+[20:49:33] [Server thread/INFO]: Default game type: SURVIVAL
+[20:49:33] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:49:33] [Server thread/INFO]: Debug logging is disabled
+[20:49:33] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[20:49:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[20:49:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:49:33] [Server thread/INFO]: Data value allowed items: 
+[20:49:33] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[20:49:33] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[20:49:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[20:49:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[20:49:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[20:49:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[20:49:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[20:49:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[20:49:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[20:49:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[20:49:33] [Server thread/INFO]: Generating keypair
+[20:49:34] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[20:49:34] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[20:49:34] [Server thread/INFO]: Using default channel type
+[20:49:34] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:49:34] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[20:49:34] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[20:49:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[20:49:34] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[20:49:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:49:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:49:34] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:49:34] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:49:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:49:34] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:49:34] [Server thread/INFO]: Preparing level "world"
+[20:49:34] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:49:34] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:34] [Server thread/INFO]: Anti X-Ray: true
+[20:49:34] [Server thread/INFO]: 	Engine Mode: 1
+[20:49:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:49:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:49:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:34] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:34] [Server thread/INFO]: Structure Info Saving: true
+[20:49:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:49:34] [Server thread/INFO]: Max Entity Collisions: 8
+[20:49:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:34] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:34] [Server thread/INFO]: View Distance: 4
+[20:49:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:49:34] [Server thread/INFO]: Clear tick list: false
+[20:49:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:34] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:49:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:49:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:49:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:49:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:49:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:49:34] [Server thread/INFO]: Water over lava flow speed: 5
+[20:49:34] [Server thread/INFO]: Fix TNT cannons: false
+[20:49:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:49:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:49:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:49:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:49:34] [Server thread/INFO]: World async lighting: false
+[20:49:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:49:34] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:34] [Server thread/INFO]: Anti X-Ray: true
+[20:49:34] [Server thread/INFO]: 	Engine Mode: 1
+[20:49:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:49:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:49:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:34] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:34] [Server thread/INFO]: Structure Info Saving: true
+[20:49:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:49:34] [Server thread/INFO]: Max Entity Collisions: 8
+[20:49:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:34] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:34] [Server thread/INFO]: View Distance: 4
+[20:49:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:49:34] [Server thread/INFO]: Clear tick list: false
+[20:49:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:49:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:49:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:49:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:49:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:49:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:49:34] [Server thread/INFO]: Water over lava flow speed: 5
+[20:49:34] [Server thread/INFO]: Fix TNT cannons: false
+[20:49:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:49:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:49:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:49:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:49:34] [Server thread/INFO]: World async lighting: false
+[20:49:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:49:34] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:34] [Server thread/INFO]: Anti X-Ray: true
+[20:49:34] [Server thread/INFO]: 	Engine Mode: 1
+[20:49:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:49:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:49:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:34] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:34] [Server thread/INFO]: Structure Info Saving: true
+[20:49:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:49:34] [Server thread/INFO]: Max Entity Collisions: 8
+[20:49:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:34] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:34] [Server thread/INFO]: View Distance: 4
+[20:49:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:49:34] [Server thread/INFO]: Clear tick list: false
+[20:49:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:49:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:49:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:49:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:49:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:49:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:49:34] [Server thread/INFO]: Water over lava flow speed: 5
+[20:49:34] [Server thread/INFO]: Fix TNT cannons: false
+[20:49:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:49:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:49:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:49:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:49:34] [Server thread/INFO]: World async lighting: false
+[20:49:34] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5731452170289428197)
+[20:49:35] [Server thread/INFO]: Preparing spawn area: 23%
+[20:49:36] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5731452170289428197)
+[20:49:37] [Server thread/INFO]: Preparing spawn area: 88%
+[20:49:37] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5731452170289428197)
+[20:49:38] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[20:49:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[20:49:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[20:49:38] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[20:49:38] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[20:49:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[20:49:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:49:38] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[20:49:38] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[20:49:38] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[20:49:38] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[20:49:38] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[20:49:38] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[20:49:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:49:38] [Server thread/INFO]: Done (4.609s)! For help, type "help" or "?"
+[20:49:38] [Server thread/INFO]: Timings Reset
+[20:49:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[20:49:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[20:49:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[20:49:57] [Thread-7/INFO]: UUID of player Taehyungluv is c0d2d3c7-cdc1-31c0-ad0f-c1f9cbd414b8
+[20:49:57] [Server thread/INFO]: Taehyungluv[/[0:0:0:0:0:0:0:1]:51314] logged in with entity id 417 at ([world]1183.699999988079, 65.0, 1176.699999988079)
+[20:50:03] [Thread-8/INFO]: UUID of player Dinnerbone is 4d258a81-2358-3084-8166-05b9faccad80
+[20:50:03] [Server thread/INFO]: Dinnerbone[/[0:0:0:0:0:0:0:1]:45446] logged in with entity id 666 at ([world]1106.9559744533344, 70.2000000476837, 935.6054032144186)
+[20:50:28] [Async Chat Thread - #0/INFO]: <Taehyungluv> hiiiiii[m
+
+[20:50:32] [Async Chat Thread - #0/INFO]: <Dinnerbone> hi[m
+
+[20:50:47] [Server thread/INFO]: Taehyungluv issued server command: /tp Dinnerbone
+[20:50:47] [Server thread/INFO]: [Taehyungluv: Teleported Taehyungluv to Dinnerbone]
+[20:50:52] [Async Chat Thread - #0/INFO]: <Dinnerbone> bro[m
+
+[20:51:12] [Async Chat Thread - #0/INFO]: <Taehyungluv> noiceeeee[m
+
+[20:51:14] [Async Chat Thread - #0/INFO]: <Dinnerbone> get out[m
+
+[20:51:15] [Thread-9/INFO]: UUID of player d4vel0per is 3f59a7a8-e0b6-32dc-9235-23c89ca4455a
+[20:51:15] [Server thread/INFO]: d4vel0per[/[0:0:0:0:0:0:0:1]:51060] logged in with entity id 842 at ([world]1079.9046560115344, 68.0, 944.3000000119209)
+[20:51:52] [Server thread/INFO]: Taehyungluv was slain by Dinnerbone
+[20:52:02] [Async Chat Thread - #0/INFO]: <d4vel0per> who is that guy[m
+
+[20:52:03] [Async Chat Thread - #0/INFO]: <Dinnerbone> i warned you[m
+
+[20:52:11] [Async Chat Thread - #0/INFO]: <Taehyungluv> im not a guy[m
+
+[20:52:16] [Async Chat Thread - #0/INFO]: <Dinnerbone> yeah[m
+
+[20:52:17] [Async Chat Thread - #0/INFO]: <d4vel0per> who is taehung dude[m
+
+[20:52:29] [Async Chat Thread - #0/INFO]: <Taehyungluv> me[m
+
+[20:52:31] [Async Chat Thread - #0/INFO]: <d4vel0per> who is he?[m
+
+[20:52:36] [Async Chat Thread - #0/INFO]: <d4vel0per> RAHUAL WHO IS HE[m
+
+[20:52:37] [Async Chat Thread - #0/INFO]: <Taehyungluv> my husband[m
+
+[20:52:42] [Async Chat Thread - #0/INFO]: <d4vel0per> ??[m
+
+[20:52:44] [Async Chat Thread - #0/INFO]: <Dinnerbone> MARRIANE IS A SHE[m
+
+[20:52:52] [Async Chat Thread - #0/INFO]: <Taehyungluv> yea[m
+
+[20:52:54] [Async Chat Thread - #0/INFO]: <d4vel0per> who is that person[m
+
+[20:53:02] [Async Chat Thread - #0/INFO]: <Taehyungluv> but taehyung is my husband[m
+
+[20:53:15] [Async Chat Thread - #0/INFO]: <d4vel0per> im gonna kill her who is she[m
+
+[20:53:21] [Async Chat Thread - #0/INFO]: <Dinnerbone> MARRIANE[m
+
+[20:53:24] [Thread-10/INFO]: UUID of player IAMAKID is 88f8cc78-9e3f-301f-a963-09af2068f91e
+[20:53:24] [Server thread/INFO]: IAMAKID[/[0:0:0:0:0:0:0:1]:45128] logged in with entity id 1766 at ([world]1110.699999988079, 62.0, 938.1361082533775)
+[20:53:26] [Async Chat Thread - #0/INFO]: <d4vel0per> who is that?[m
+
+[20:53:32] [Async Chat Thread - #0/INFO]: <Taehyungluv> marianne[m
+
+[20:53:38] [Async Chat Thread - #0/INFO]: <IAMAKID> hi marine[m
+
+[20:53:40] [Async Chat Thread - #0/INFO]: <Taehyungluv> who r u[m
+
+[20:53:47] [Async Chat Thread - #0/INFO]: <d4vel0per> im james[m
+
+[20:53:50] [Async Chat Thread - #0/INFO]: <Taehyungluv> ji krish'[m
+
+[20:54:04] [Async Chat Thread - #0/INFO]: <Taehyungluv> r u in tj[m
+
+[20:54:08] [Async Chat Thread - #0/INFO]: <IAMAKID> yeah[m
+
+[20:54:12] [Async Chat Thread - #0/INFO]: <d4vel0per> i am not[m
+
+[20:54:16] [Async Chat Thread - #0/INFO]: <Taehyungluv> kk[m
+
+[20:54:19] [Async Chat Thread - #0/INFO]: <d4vel0per> im in 7th grade[m
+
+[20:54:22] [Async Chat Thread - #0/INFO]: <IAMAKID> yes you are[m
+
+[20:54:25] [Async Chat Thread - #0/INFO]: <Taehyungluv> k[m
+
+[20:54:28] [Async Chat Thread - #0/INFO]: <IAMAKID> you are in 6th grade[m
+
+[20:54:31] [Server thread/INFO]: Dinnerbone issued server command: //replace torch air
+[20:54:33] [Async Chat Thread - #0/INFO]: <Taehyungluv> mhm[m
+
+[20:54:34] [Async Chat Thread - #0/INFO]: <d4vel0per> ??[m
+
+[20:54:45] [Async Chat Thread - #0/INFO]: <d4vel0per> dude you dont even know who ia am[m
+
+[20:54:50] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID STOP
+[20:54:52] [Async Chat Thread - #0/INFO]: <IAMAKID> you piece of sh*t taki stick[m
+
+[20:54:59] [Async Chat Thread - #0/INFO]: <Dinnerbone> CURSING[m
+
+[20:55:00] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID IM TROLLING HEHE
+[20:55:14] [Server thread/INFO]: Dinnerbone issued server command: //replace stone torch
+[20:55:24] [Server thread/INFO]: Dinnerbone issued server command: /undo
+[20:55:25] [Server thread/INFO]: IAMAKID issued server command: /tell Taehyungluv he mesaged me he is trolling you ignore him
+[20:55:39] [Async Chat Thread - #0/INFO]: <Taehyungluv> kk[m
+
+[20:55:43] [Server thread/INFO]: IAMAKID issued server command: /home 1
+[20:55:46] [Async Chat Thread - #0/INFO]: <IAMAKID> cya[m
+
+[20:55:49] [Async Chat Thread - #0/INFO]: <Dinnerbone> afk[m
+
+[20:55:51] [Server thread/INFO]: IAMAKID issued server command: /l
+[20:55:59] [Async Chat Thread - #0/INFO]: <Taehyungluv> i wunt a pinkity drinkity[m
+
+[20:56:01] [Async Chat Thread - #0/INFO]: <IAMAKID> rahual[m
+
+[20:56:14] [Server thread/INFO]: IAMAKID issued server command: /gamemode c
+[20:56:56] [Async Chat Thread - #0/INFO]: <Taehyungluv> can i tp to someone[m
+
+[20:57:13] [Async Chat Thread - #0/INFO]: <Taehyungluv> btw[m
+
+[20:57:31] [Async Chat Thread - #0/INFO]: <Taehyungluv> i may or may not have murdered a bunny[m
+
+[20:57:38] [Async Chat Thread - #0/INFO]: <IAMAKID> rahual[m
+
+[20:57:44] [Async Chat Thread - #0/INFO]: <Taehyungluv> RAHULLLLL[m
+
+[20:57:50] [Async Chat Thread - #0/INFO]: <IAMAKID> rhual[m
+
+[20:57:56] [Async Chat Thread - #0/INFO]: <Taehyungluv> is he deaf[m
+
+[20:57:56] [Async Chat Thread - #0/INFO]: <IAMAKID> RAHUAL[m
+
+[20:58:11] [Server thread/INFO]: Dinnerbone lost connection: Disconnected
+[20:58:11] [Server thread/INFO]: Dinnerbone left the game.
+[20:58:14] [Async Chat Thread - #0/INFO]: <IAMAKID> rahual[m
+
+[20:58:19] [Async Chat Thread - #0/INFO]: <Taehyungluv> he left[m
+
+[20:58:32] [Async Chat Thread - #0/INFO]: <IAMAKID> YOU PICE OF NEGRO TAKI STICKS[m
+
+[20:58:37] [Server thread/INFO]: IAMAKID issued server command: /home 1
+[20:58:39] [Async Chat Thread - #0/INFO]: <Taehyungluv> me?[m
+
+[20:58:42] [Async Chat Thread - #0/INFO]: <IAMAKID> no[m
+
+[20:58:44] [Async Chat Thread - #0/INFO]: <IAMAKID> RAHUAL[m
+
+[20:58:46] [Async Chat Thread - #0/INFO]: <Taehyungluv> good[m
+
+[20:58:48] [Server thread/INFO]: IAMAKID issued server command: /THE NEGRO
+[20:58:57] [Server thread/INFO]: IAMAKID tried to swim in lava
+[20:59:04] [Async Chat Thread - #0/INFO]: <Taehyungluv> lol[m
+
+[20:59:05] [Async Chat Thread - #0/INFO]: <IAMAKID> \[m
+
+[20:59:16] [Server thread/INFO]: Taehyungluv was slain by IAMAKID
+[20:59:22] [Async Chat Thread - #0/INFO]: <d4vel0per> KRISH[m
+
+[20:59:23] [Async Chat Thread - #0/INFO]: <IAMAKID> dont lol me[m
+
+[20:59:25] [Async Chat Thread - #0/INFO]: <d4vel0per> STOP KILLING[m
+
+[20:59:34] [Server thread/INFO]: IAMAKID issued server command: /tpa d4vel0per
+[20:59:38] [Async Chat Thread - #0/INFO]: <Taehyungluv> yea[m
+
+[20:59:42] [Async Chat Thread - #0/INFO]: <Taehyungluv> stawp[m
+
+[20:59:42] [Server thread/INFO]: d4vel0per issued server command: /tpadeny
+[20:59:46] [Server thread/INFO]: d4vel0per issued server command: /tpdeny
+[20:59:50] [Async Chat Thread - #0/INFO]: <Taehyungluv> thats offenseve[m
+
+[20:59:54] [Server thread/INFO]: IAMAKID issued server command: /tell d4vel0per trust pls
+[20:59:57] [Async Chat Thread - #0/INFO]: <IAMAKID> ok sry[m
+
+[21:00:03] [Async Chat Thread - #0/INFO]: <Taehyungluv> can i tp to someone'[m
+
+[21:00:04] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID no im doing something
+[21:00:08] [Server thread/INFO]: IAMAKID issued server command: /tpa d4vel0per
+[21:00:16] [Async Chat Thread - #0/INFO]: <d4vel0per> rahual gave me op and tahts why i cant tp[m
+
+[21:00:24] [Async Chat Thread - #0/INFO]: <d4vel0per> im helping in ceate something[m
+
+[21:00:30] [Async Chat Thread - #0/INFO]: <IAMAKID> i tp to you[m
+
+[21:00:30] [Async Chat Thread - #0/INFO]: <Taehyungluv> huh[m
+
+[21:00:35] [Async Chat Thread - #0/INFO]: <IAMAKID> trust[m
+
+[21:00:40] [Async Chat Thread - #0/INFO]: <Taehyungluv> huh[m
+
+[21:00:53] [Async Chat Thread - #0/INFO]: <Taehyungluv> kk[m
+
+[21:01:00] [Server thread/INFO]: IAMAKID issued server command: /home 1
+[21:01:10] [Server thread/INFO]: d4vel0per issued server command: /gamemode s
+[21:01:10] [Server thread/INFO]: [d4vel0per: Set own game mode to Survival Mode]
+[21:01:18] [Async Chat Thread - #0/INFO]: <Taehyungluv> t[m
+
+[21:01:40] [Server thread/INFO]: Taehyungluv issued server command: /tp d4vel0per
+[21:01:40] [Server thread/INFO]: [Taehyungluv: Teleported Taehyungluv to d4vel0per]
+[21:01:52] [Server thread/INFO]: Taehyungluv was slain by d4vel0per
+[21:01:55] [Async Chat Thread - #0/INFO]: <d4vel0per> HEY[m
+
+[21:01:57] [Server thread/WARN]: d4vel0per moved wrongly!
+[21:02:00] [Async Chat Thread - #0/INFO]: <Taehyungluv> wut[m
+
+[21:02:06] [Server thread/INFO]: d4vel0per issued server command: /deop Taehyungluv
+[21:02:06] [Server thread/INFO]: [d4vel0per: De-opped Taehyungluv]
+[21:02:15] [Async Chat Thread - #0/INFO]: <d4vel0per> READ TEH RULES[m
+
+[21:02:20] [Async Chat Thread - #0/INFO]: <d4vel0per> NO TP[m
+
+[21:02:23] [Async Chat Thread - #0/INFO]: <Taehyungluv> huh[m
+
+[21:02:25] [Async Chat Thread - #0/INFO]: <d4vel0per> UNLESS PLAYER ALLOWS[m
+
+[21:02:30] [Server thread/INFO]: Taehyungluv lost connection: Disconnected
+[21:02:30] [Server thread/INFO]: Taehyungluv left the game.
+[21:02:44] [Server thread/INFO]: d4vel0per issued server command: /gamemode c
+[21:02:44] [Server thread/INFO]: [d4vel0per: Set own game mode to Creative Mode]
+[21:02:50] [Thread-12/INFO]: UUID of player Taehyungluv is c0d2d3c7-cdc1-31c0-ad0f-c1f9cbd414b8
+[21:02:50] [Server thread/INFO]: Taehyungluv[/[0:0:0:0:0:0:0:1]:41614] logged in with entity id 3973 at ([world]1198.026425160332, 65.0, 1121.9653622066007)
+[21:03:17] [Async Chat Thread - #0/INFO]: <Taehyungluv> im back[m
+
+[21:03:55] [Async Chat Thread - #0/INFO]: <Taehyungluv> help[m
+
+[21:04:03] [Async Chat Thread - #0/INFO]: <Taehyungluv> i cant murder things[m
+
+[21:04:42] [Async Chat Thread - #0/INFO]: <IAMAKID> ryan[m
+
+[21:04:44] [Async Chat Thread - #0/INFO]: <d4vel0per> wat[m
+
+[21:04:51] [Async Chat Thread - #0/INFO]: <IAMAKID> YOU A NEGRO CLUCKING BEACH[m
+
+[21:04:55] [Async Chat Thread - #0/INFO]: <Taehyungluv> whos that[m
+
+[21:04:59] [Async Chat Thread - #0/INFO]: <d4vel0per> ??[m
+
+[21:05:10] [Async Chat Thread - #0/INFO]: <d4vel0per> what[m
+
+[21:05:19] [Async Chat Thread - #0/INFO]: <Taehyungluv> whos ryam[m
+
+[21:05:25] [Async Chat Thread - #0/INFO]: <Taehyungluv> ryan[m
+
+[21:05:30] [Async Chat Thread - #0/INFO]: <d4vel0per> ??[m
+
+[21:05:41] [Async Chat Thread - #0/INFO]: <IAMAKID> ryan is the 7th grader totally[m
+
+[21:05:42] [Async Chat Thread - #0/INFO]: <d4vel0per> YOOO[m
+
+[21:05:48] [Async Chat Thread - #0/INFO]: <d4vel0per> I FOUND DIAMONDS[m
+
+[21:05:54] [Async Chat Thread - #0/INFO]: <IAMAKID> idont care[m
+
+[21:05:56] [Async Chat Thread - #0/INFO]: <Taehyungluv> oh that kid[m
+
+[21:06:01] [Async Chat Thread - #0/INFO]: <d4vel0per> about ur life[m
+
+[21:06:07] [Async Chat Thread - #0/INFO]: <Taehyungluv> hes in my homeroom i think[m
+
+[21:06:11] [Async Chat Thread - #0/INFO]: <d4vel0per> ?/[m
+
+[21:06:25] [Async Chat Thread - #0/INFO]: <d4vel0per> im in mrs eviorlos hr[m
+
+[21:06:28] [Async Chat Thread - #0/INFO]: <d4vel0per> watchu on?[m
+
+[21:06:38] [Async Chat Thread - #0/INFO]: <Taehyungluv> r u in 6 grade[m
+
+[21:06:46] [Async Chat Thread - #0/INFO]: <d4vel0per> i was in last year[m
+
+[21:06:59] [Async Chat Thread - #0/INFO]: <Taehyungluv> ok???[m
+
+[21:07:05] [Async Chat Thread - #0/INFO]: <Taehyungluv> nvm[m
+
+[21:07:09] [Async Chat Thread - #0/INFO]: <d4vel0per> k[m
+
+[21:07:17] [Async Chat Thread - #0/INFO]: <d4vel0per> well ppl call me james for sort[m
+
+[21:07:20] [Async Chat Thread - #0/INFO]: <d4vel0per> i like it dat wya[m
+
+[21:07:39] [Async Chat Thread - #0/INFO]: <Taehyungluv> how is james short for ryan[m
+
+[21:07:45] [Async Chat Thread - #0/INFO]: <d4vel0per> noo[m
+
+[21:07:48] [Async Chat Thread - #0/INFO]: <d4vel0per> i just like the name[m
+
+[21:07:52] [Async Chat Thread - #0/INFO]: <d4vel0per> so ppl call me it[m
+
+[21:07:56] [Async Chat Thread - #0/INFO]: <Taehyungluv> ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhh[m
+
+[21:07:58] [Async Chat Thread - #0/INFO]: <Taehyungluv> kk[m
+
+[21:08:08] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID lol she actually buys it
+[21:08:16] [Async Chat Thread - #0/INFO]: <IAMAKID> i know[m
+
+[21:08:17] [Async Chat Thread - #0/INFO]: <Taehyungluv> r u asian[m
+
+[21:08:25] [Server thread/INFO]: IAMAKID issued server command: /tell d4vel0per she is a negro
+[21:08:26] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID WHISPERRR
+[21:08:33] [Async Chat Thread - #0/INFO]: <d4vel0per> yeah why[m
+
+[21:08:45] [Async Chat Thread - #0/INFO]: <Taehyungluv> chinese?[m
+
+[21:08:48] [Async Chat Thread - #0/INFO]: <d4vel0per> nah[m
+
+[21:08:56] [Async Chat Thread - #0/INFO]: <Taehyungluv> indian[m
+
+[21:08:57] [Async Chat Thread - #0/INFO]: <d4vel0per> im krn[m
+
+[21:09:03] [Async Chat Thread - #0/INFO]: <Taehyungluv> huh[m
+
+[21:09:06] [Async Chat Thread - #0/INFO]: <d4vel0per> oh[m
+
+[21:09:07] [Async Chat Thread - #0/INFO]: <IAMAKID> he is koren[m
+
+[21:09:10] [Async Chat Thread - #0/INFO]: <d4vel0per> krn for korean[m
+
+[21:09:10] [Async Chat Thread - #0/INFO]: <Taehyungluv> omg[m
+
+[21:09:20] [Async Chat Thread - #0/INFO]: <d4vel0per> ?/[m
+
+[21:09:22] [Async Chat Thread - #0/INFO]: <d4vel0per> ?[m
+
+[21:09:24] [Async Chat Thread - #0/INFO]: <Taehyungluv> slayyyyy[m
+
+[21:09:28] [Async Chat Thread - #0/INFO]: <d4vel0per> ?[m
+
+[21:09:38] [Async Chat Thread - #0/INFO]: <IAMAKID> james[m
+
+[21:09:41] [Async Chat Thread - #0/INFO]: <d4vel0per> yes[m
+
+[21:09:43] [Async Chat Thread - #0/INFO]: <IAMAKID> its ovis[m
+
+[21:09:49] [Async Chat Thread - #0/INFO]: <d4vel0per> ??[m
+
+[21:09:50] [Async Chat Thread - #0/INFO]: <IAMAKID> she likes you[m
+
+[21:09:57] [Async Chat Thread - #0/INFO]: <Taehyungluv> no i dont[m
+
+[21:10:07] [Async Chat Thread - #0/INFO]: <d4vel0per> beach heven no[m
+
+[21:10:08] [Thread-13/INFO]: UUID of player VD_GOD is ccf63eb3-4c7f-3e79-b620-404ae8cf91a7
+[21:10:08] [Server thread/INFO]: VD_GOD[/[0:0:0:0:0:0:0:1]:36682] logged in with entity id 5479 at ([world]1290.3719363347068, 47.0, 808.8967632410396)
+[21:10:19] [Server thread/INFO]: d4vel0per issued server command: /tell VD_GOD DONT CALL ME RYAN
+[21:10:36] [Server thread/INFO]: d4vel0per issued server command: /tell VD_GOD IM TROLLING THE TAEHYUNG GIRL
+[21:10:56] [Server thread/INFO]: d4vel0per issued server command: /tell VD_GOD MY ANME IS JAMES OK? IM IN 7th GRADE
+[21:11:02] [Async Chat Thread - #0/INFO]: <Taehyungluv> i was just asking cuz i like this one korean person[m
+
+[21:11:03] [Server thread/INFO]: d4vel0per issued server command: /tell VD_GOD IM KOREAN
+[21:11:12] [Async Chat Thread - #0/INFO]: <d4vel0per> taehyung?[m
+
+[21:11:33] [Async Chat Thread - #0/INFO]: <Taehyungluv> yea[m
+
+[21:11:36] [Async Chat Thread - #0/INFO]: <d4vel0per> ...[m
+
+[21:11:46] [Async Chat Thread - #0/INFO]: <IAMAKID> girly girl pops[m
+
+[21:11:47] [Async Chat Thread - #0/INFO]: <Taehyungluv> do u know him!!!!!![m
+
+[21:11:53] [Async Chat Thread - #0/INFO]: <d4vel0per> the one who sand ears nose lips or something like that[m
+
+[21:12:01] [Async Chat Thread - #0/INFO]: <Taehyungluv> huh[m
+
+[21:12:07] [Async Chat Thread - #0/INFO]: <d4vel0per> de song name[m
+
+[21:12:11] [Async Chat Thread - #0/INFO]: <d4vel0per> eyes lips nose i think[m
+
+[21:12:20] [Async Chat Thread - #0/INFO]: <Taehyungluv> it was blood sweat tears[m
+
+[21:12:25] [Async Chat Thread - #0/INFO]: <d4vel0per> ohhh[m
+
+[21:12:53] [Async Chat Thread - #0/INFO]: <Taehyungluv> do u know him[m
+
+[21:13:05] [Async Chat Thread - #0/INFO]: <d4vel0per> are you talkign about V?[m
+
+[21:13:12] [Async Chat Thread - #0/INFO]: <Taehyungluv> yasssssssss[m
+
+[21:13:19] [Async Chat Thread - #0/INFO]: <d4vel0per> like "love me again"[m
+
+[21:13:25] [Async Chat Thread - #0/INFO]: <Taehyungluv> yea[m
+
+[21:13:29] [Async Chat Thread - #0/INFO]: <d4vel0per> "rainy days"[m
+
+[21:13:37] [Async Chat Thread - #0/INFO]: <Taehyungluv> yea[m
+
+[21:13:40] [Async Chat Thread - #0/INFO]: <d4vel0per> "fri(ends)[m
+
+[21:13:47] [Async Chat Thread - #0/INFO]: <Taehyungluv> yea[m
+
+[21:13:50] [Async Chat Thread - #0/INFO]: <d4vel0per> ik him[m
+
+[21:13:58] [Async Chat Thread - #0/INFO]: <d4vel0per> my sister likes him[m
+
+[21:14:04] [Async Chat Thread - #0/INFO]: <Taehyungluv> whats his number[m
+
+[21:14:08] [Async Chat Thread - #0/INFO]: <d4vel0per> ??[m
+
+[21:14:48] [Async Chat Thread - #0/INFO]: <Taehyungluv> what school do u go 2[m
+
+[21:14:57] [Async Chat Thread - #0/INFO]: <IAMAKID> he go to harvard[m
+
+[21:15:01] [Async Chat Thread - #0/INFO]: <d4vel0per> no i dont[m
+
+[21:15:07] [Async Chat Thread - #0/INFO]: <d4vel0per> i go to hovert[m
+
+[21:15:11] [Async Chat Thread - #0/INFO]: <Taehyungluv> shut up krish[m
+
+[21:15:16] [Server thread/INFO]: d4vel0per issued server command: /sethome RR
+[21:15:20] [Async Chat Thread - #0/INFO]: <Taehyungluv> noice[m
+
+[21:15:21] [Server thread/INFO]: d4vel0per issued server command: /tp Taehyungluv
+[21:15:21] [Server thread/INFO]: [d4vel0per: Teleported d4vel0per to Taehyungluv]
+[21:15:29] [Server thread/INFO]: Taehyungluv was burnt to a crisp whilst fighting d4vel0per
+[21:15:30] [Server thread/INFO]: d4vel0per issued server command: /home RR
+[21:15:34] [Async Chat Thread - #0/INFO]: <d4vel0per> oops[m
+
+[21:15:39] [Async Chat Thread - #0/INFO]: <Taehyungluv> heyyyyyy[m
+
+[21:15:43] [Async Chat Thread - #0/INFO]: <Taehyungluv> stawp[m
+
+[21:15:50] [Async Chat Thread - #0/INFO]: <d4vel0per> "stop"[m
+
+[21:16:01] [Async Chat Thread - #0/INFO]: <Taehyungluv> stawp[m
+
+[21:16:05] [Async Chat Thread - #0/INFO]: <d4vel0per> "stop"[m
+
+[21:16:19] [Async Chat Thread - #0/INFO]: <Taehyungluv> nvm[m
+
+[21:16:34] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID
+[21:16:41] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID tp to me
+[21:16:47] [Server thread/INFO]: IAMAKID issued server command: /tpa d4vel0per
+[21:16:50] [Async Chat Thread - #0/INFO]: <IAMAKID> ryan[m
+
+[21:16:58] [Server thread/INFO]: d4vel0per issued server command: /tpaccept
+[21:17:07] [Async Chat Thread - #0/INFO]: <d4vel0per> come[m
+
+[21:17:17] [Server thread/INFO]: d4vel0per issued server command: /tell IAMAKID private whisper me
+[21:17:24] [Async Chat Thread - #0/INFO]: <d4vel0per> AY[m
+
+[21:17:37] [Async Chat Thread - #0/INFO]: <d4vel0per> HOW DID U KNOW[m
+
+[21:17:39] [Async Chat Thread - #0/INFO]: <IAMAKID> stop[m
+
+[21:17:43] [Async Chat Thread - #0/INFO]: <d4vel0per> UGHHH[m
+
+[21:17:48] [Async Chat Thread - #0/INFO]: <Taehyungluv> wut[m
+
+[21:17:53] [Server thread/INFO]: IAMAKID issued server command: /home 1
+[21:17:56] [Async Chat Thread - #0/INFO]: <d4vel0per> BROOOOO[m
+
+[21:18:03] [Async Chat Thread - #0/INFO]: <Taehyungluv> what[m
+
+[21:18:09] [Server thread/INFO]: d4vel0per issued server command: /tp IAMAKID
+[21:18:09] [Server thread/INFO]: [d4vel0per: Teleported d4vel0per to IAMAKID]
+[21:18:22] [Server thread/INFO]: d4vel0per issued server command: /gamemode spectater
+[21:18:22] [Server thread/INFO]: [d4vel0per: 'spectater' is not a valid number]
+[21:18:29] [Async Chat Thread - #0/INFO]: <d4vel0per> wat this[m
+
+[21:18:35] [Async Chat Thread - #0/INFO]: <IAMAKID> my house[m
+
+[21:18:39] [Async Chat Thread - #0/INFO]: <d4vel0per> cool[m
+
+[21:18:53] [Async Chat Thread - #0/INFO]: <IAMAKID> help me[m
+
+[21:19:17] [Async Chat Thread - #0/INFO]: <d4vel0per> wheres teh bae[m
+
+[21:19:24] [Async Chat Thread - #0/INFO]: <IAMAKID> ryan[m
+
+[21:19:28] [Async Chat Thread - #0/INFO]: <d4vel0per> whatw[m
+
+[21:19:36] [Async Chat Thread - #0/INFO]: <IAMAKID> helpo me[m
+
+[21:19:39] [Async Chat Thread - #0/INFO]: <d4vel0per> okd[m
+
+[21:19:43] [Server thread/INFO]: d4vel0per issued server command: /tp IAMAKID
+[21:19:43] [Server thread/INFO]: [d4vel0per: Teleported d4vel0per to IAMAKID]
+[21:19:45] [Async Chat Thread - #0/INFO]: <IAMAKID> switch me to c[m
+
+[21:19:49] [Async Chat Thread - #0/INFO]: <d4vel0per> no[m
+
+[21:19:49] [Async Chat Thread - #0/INFO]: <IAMAKID> to make my farm[m
+
+[21:19:54] [Async Chat Thread - #0/INFO]: <IAMAKID> rhaual[m
+
+[21:19:55] [Async Chat Thread - #0/INFO]: <Taehyungluv> can i tp to u guys[m
+
+[21:19:56] [Async Chat Thread - #0/INFO]: <d4vel0per> im a admin of my words[m
+
+[21:19:58] [Async Chat Thread - #0/INFO]: <IAMAKID> said[m
+
+[21:20:00] [Async Chat Thread - #0/INFO]: <d4vel0per> sure[m
+
+[21:20:04] [Async Chat Thread - #0/INFO]: <IAMAKID> but he is biusy[m
+
+[21:20:15] [Server thread/INFO]: Taehyungluv issued server command: /tp d4vel0per
+[21:20:16] [Async Chat Thread - #0/INFO]: <d4vel0per> tpa to me[m
+
+[21:20:21] [Server thread/INFO]: IAMAKID issued server command: /tpa d4vel0per
+[21:20:23] [Async Chat Thread - #0/INFO]: <Taehyungluv> kk[m
+
+[21:20:24] [Server thread/INFO]: d4vel0per issued server command: /tpaccept
+[21:20:25] [Async Chat Thread - #0/INFO]: <IAMAKID> switch me[m
+
+[21:20:29] [Async Chat Thread - #0/INFO]: <IAMAKID> hurry[m
+
+[21:20:37] [Async Chat Thread - #0/INFO]: <d4vel0per> no[m
+
+[21:20:37] [Server thread/INFO]: Taehyungluv issued server command: /tp d4vel0per
+[21:20:41] [Async Chat Thread - #0/INFO]: <IAMAKID> whyy[m
+
+[21:20:43] [Async Chat Thread - #0/INFO]: <d4vel0per> cuz[m
+
+[21:20:43] [Async Chat Thread - #0/INFO]: <Taehyungluv> it wont work[m
+
+[21:20:51] [Server thread/INFO]: d4vel0per issued server command: /tp Taehyungluv
+[21:20:51] [Server thread/INFO]: [d4vel0per: Teleported d4vel0per to Taehyungluv]
+[21:20:55] [Async Chat Thread - #0/INFO]: <IAMAKID> ask rahual[m
+
+[21:21:00] [Async Chat Thread - #0/INFO]: <IAMAKID> he said yes[m
+
+[21:21:02] [Server thread/INFO]: Taehyungluv was burnt to a crisp whilst fighting d4vel0per
+[21:21:06] [Async Chat Thread - #0/INFO]: <d4vel0per> oops[m
+
+[21:21:16] [Server thread/INFO]: d4vel0per issued server command: /tp IAMAKID
+[21:21:16] [Server thread/INFO]: [d4vel0per: Teleported d4vel0per to IAMAKID]

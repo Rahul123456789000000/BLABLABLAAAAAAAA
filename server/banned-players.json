@@ -1,0 +1,50 @@
+[
+  {
+    "uuid": "67dcbe54-a46d-3a2a-b49b-f0d3838f6a88",
+    "name": "BRO_WASNT_ME_MAN",
+    "created": "2024-04-18 18:32:12 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "93213424-2349-46a8-8e11-bd63012cb05f",
+    "name": "Fortech",
+    "created": "2024-04-19 13:55:07 +0000",
+    "source": "FieryEclipse",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "3efe8196-3909-339a-b33d-40c159e5bd71",
+    "name": "FortTech",
+    "created": "2024-04-19 14:11:04 +0000",
+    "source": "FieryEclipse",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "21de70bd-e9e0-365b-8ad3-da55ef199131",
+    "name": "GIVE_ME_PROOF",
+    "created": "2024-04-18 18:54:09 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "54fc10c2-412c-36ad-8d82-a220648f790d",
+    "name": "WantedHalo07",
+    "created": "2024-04-19 14:34:07 +0000",
+    "source": "FieryEclipse",
+    "expires": "forever",
+    "reason": "NO PVP WITHOUT REASON DUMMY"
+  },
+  {
+    "uuid": "2cedbac7-aa9e-3be9-8fa6-a1376e3f5258",
+    "name": "STOP_IT_WAS_NOME",
+    "created": "2024-04-18 18:53:46 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

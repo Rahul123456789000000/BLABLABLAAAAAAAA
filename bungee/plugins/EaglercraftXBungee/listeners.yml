@@ -10,7 +10,8 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - ' &3&o&lDragonRealm
+  &b&l&o&kIf Ur Gay And U Know It Clap Ur Hands'
   allow_motd: true
   allow_query: true
   request_motd_cache:
@@ -45,7 +46,8 @@ listener_01:
       exceptions:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
-    motd:
+    motd:&3&o&lDragonRealm
+  &b&l&o&kIf Ur Gay And U Know It Clap Ur Hands
       enable: false
       period: 30
       limit: 5

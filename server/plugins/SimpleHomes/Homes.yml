@@ -1,1 +1,96 @@
-
+Rainbow_Eclipse_:
+  spawn:
+    world: world
+    X: 240.30000001192093
+    Y: 69.0
+    Z: 128.37815600660923
+  spawn1:
+    world: world
+    X: 240.48392253677875
+    Y: 95.0
+    Z: 128.5491635145743
+Dragon_Eclipse_:
+  spawn:
+    world: world
+    X: 251.64505937495318
+    Y: 244.0
+    Z: 118.57311954753312
+  '1':
+    world: world
+    X: 252.878915773027
+    Y: 244.0
+    Z: 104.24291847499393
+  base:
+    world: world_nether
+    X: 75055.69999998808
+    Y: 128.0
+    Z: 749991.06490261
+PenzoMooMoo:
+  base:
+    world: world
+    X: 230.86369351529783
+    Y: 70.0
+    Z: 84.85801837682916
+  spawn:
+    world: world
+    X: 257.0517990805903
+    Y: 244.0
+    Z: 107.21331769362911
+  home:
+    world: world
+    X: 202.5862974998609
+    Y: 11.0
+    Z: 33.638246183467444
+FortTech: {}
+sea133:
+  STAFF:
+    world: world_nether
+    X: 75030.09380802634
+    Y: 128.99881736114455
+    Z: 749960.968345449
+DiamondCrystal:
+  DUEL1:
+    world: world
+    X: 104.77675920477282
+    Y: 48.0
+    Z: -51.69839431258008
+YeeDarver678:
+  you:
+    world: world
+    X: 586.6320357001922
+    Y: 71.0
+    Z: 338.2829966631053
+99_epie:
+  base:
+    world: world
+    X: 203.54356014812203
+    Y: 11.0
+    Z: 34.58820162627323
+  lobby:
+    world: world
+    X: 251.06395864003488
+    Y: 244.0
+    Z: 104.11856599151177
+Shikesh23:
+  Sand:
+    world: world
+    X: 108.0041117184494
+    Y: 72.0
+    Z: 108.33547702740894
+WantedHalo:
+  '0':
+    world: world
+    X: 298.69999998807907
+    Y: 10.0
+    Z: 84.6999999880791
+Tortilla_Man:
+  outside:
+    world: world
+    X: 203.10775905616637
+    Y: 64.0
+    Z: 81.93620676844162
+  home:
+    world: world
+    X: 205.30000001192093
+    Y: 13.0
+    Z: 34.557303925129695

@@ -1,0 +1,50 @@
+[
+  {
+    "uuid": "56d12b40-2ae6-3934-8fe0-78a459c3ba05",
+    "name": "WantedHalo",
+    "created": "2024-05-30 13:20:01 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "NO CURSING"
+  },
+  {
+    "uuid": "f8e44abd-e728-3dfa-9eb4-c431c54154a1",
+    "name": "FortTech_",
+    "created": "2024-05-29 17:33:48 +0000",
+    "source": "Dragon_Eclipse_",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "3f40fc23-e905-3c49-a25d-dea7eafcca03",
+    "name": "SPONKI",
+    "created": "2024-05-29 17:35:48 +0000",
+    "source": "Dragon_Eclipse_",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "2b8abbe7-4736-3341-92e7-4605a9712c59",
+    "name": "ARCH_MC_IS_DOWN_",
+    "created": "2024-05-29 17:36:33 +0000",
+    "source": "Dragon_Eclipse_",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "9eda3486-89ff-33b5-9cdd-357b54477ee7",
+    "name": "IF_YOU_LOVE_MOM",
+    "created": "2024-05-29 17:39:43 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "626dab86-a829-3d61-8d48-a87879f5d98b",
+    "name": "I_AM_STUPID",
+    "created": "2024-05-29 17:46:53 +0000",
+    "source": "Dragon_Eclipse_",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
